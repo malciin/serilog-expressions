@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.223
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91E482DE-E1E7-4CE1-9511-C0AF07F3648A}"
 EndProject
@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Expressions.Tests",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Expressions.PerformanceTests", "test\Serilog.Expressions.PerformanceTests\Serilog.Expressions.PerformanceTests.csproj", "{D7A37F73-BBA3-4DAE-9648-1A753A86F968}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogTrimTestApp", "src\SerilogTrimTestApp\SerilogTrimTestApp.csproj", "{7BDCECDE-3C4F-445A-A159-E6760E6D8125}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D7A37F73-BBA3-4DAE-9648-1A753A86F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A37F73-BBA3-4DAE-9648-1A753A86F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A37F73-BBA3-4DAE-9648-1A753A86F968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDCECDE-3C4F-445A-A159-E6760E6D8125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDCECDE-3C4F-445A-A159-E6760E6D8125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDCECDE-3C4F-445A-A159-E6760E6D8125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDCECDE-3C4F-445A-A159-E6760E6D8125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{A420C4E3-3A2D-4369-88EB-77E4DB1D0219} = {91E482DE-E1E7-4CE1-9511-C0AF07F3648A}
 		{3C2D8E01-5580-426A-BDD9-EC59CD98E618} = {B03B3086-D197-4B32-9AE2-8536C345EA2D}
 		{D7A37F73-BBA3-4DAE-9648-1A753A86F968} = {B03B3086-D197-4B32-9AE2-8536C345EA2D}
+		{7BDCECDE-3C4F-445A-A159-E6760E6D8125} = {91E482DE-E1E7-4CE1-9511-C0AF07F3648A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB6672D6-318E-493E-8B60-77F5A7A90E66}
